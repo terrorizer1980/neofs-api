@@ -21,6 +21,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StorageGroup", "StorageGrou
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tombstone", "Tombstone\Tombstone.csproj", "{BD23D56D-9B46-4910-A81E-391C55936AD9}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Audit", "Audit\Audit.csproj", "{A2CEF0CE-CA36-42A0-9802-17B23D0856E5}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -142,5 +144,17 @@ Global
 		{BD23D56D-9B46-4910-A81E-391C55936AD9}.Release|x64.Build.0 = Release|Any CPU
 		{BD23D56D-9B46-4910-A81E-391C55936AD9}.Release|x86.ActiveCfg = Release|Any CPU
 		{BD23D56D-9B46-4910-A81E-391C55936AD9}.Release|x86.Build.0 = Release|Any CPU
+		{A2CEF0CE-CA36-42A0-9802-17B23D0856E5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A2CEF0CE-CA36-42A0-9802-17B23D0856E5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A2CEF0CE-CA36-42A0-9802-17B23D0856E5}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{A2CEF0CE-CA36-42A0-9802-17B23D0856E5}.Debug|x64.Build.0 = Debug|Any CPU
+		{A2CEF0CE-CA36-42A0-9802-17B23D0856E5}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{A2CEF0CE-CA36-42A0-9802-17B23D0856E5}.Debug|x86.Build.0 = Debug|Any CPU
+		{A2CEF0CE-CA36-42A0-9802-17B23D0856E5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A2CEF0CE-CA36-42A0-9802-17B23D0856E5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A2CEF0CE-CA36-42A0-9802-17B23D0856E5}.Release|x64.ActiveCfg = Release|Any CPU
+		{A2CEF0CE-CA36-42A0-9802-17B23D0856E5}.Release|x64.Build.0 = Release|Any CPU
+		{A2CEF0CE-CA36-42A0-9802-17B23D0856E5}.Release|x86.ActiveCfg = Release|Any CPU
+		{A2CEF0CE-CA36-42A0-9802-17B23D0856E5}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
