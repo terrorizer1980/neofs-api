@@ -1,0 +1,71 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+    <metadata minClientVersion="3.3.0">
+        <!-- The identifier that must be unique within the hosting gallery -->
+        <id>NeoFS-NGD.Proto</id>
+
+        <!-- The package version number that is used when resolving dependencies -->
+        <version>1.0.1</version>
+
+        <!-- Authors contain text that appears directly on the gallery -->
+        <authors>NSPCC</authors>
+
+        <!-- 
+            Owners are typically nuget.org identities that allow gallery
+            users to easily find other packages by the same owners.  
+        -->
+        <owners>NSPCC</owners>
+        
+         <!-- Project URL provides a link for the gallery -->
+        <projectUrl>http://github.com/nspcc-dev/neofs-api</projectUrl>
+
+         <!-- License information is displayed on the gallery -->
+        <license type="expression">Apache-2.0</license>
+        
+
+        <!-- The icon is used in Visual Studio's package manager UI -->
+        <iconUrl>http://github.com/nspcc-dev/neofs-api-sharp/.github/nuget_icon.png</iconUrl>
+
+        <!-- 
+            If true, this value prompts the user to accept the license when
+            installing the package. 
+        -->
+        <requireLicenseAcceptance>false</requireLicenseAcceptance>
+
+        <!-- Any details about this particular release -->
+        <releaseNotes>jindo</releaseNotes>
+
+        <!-- 
+            The description can be used in package manager UI. Note that the
+            nuget.org gallery uses information you add in the portal. 
+        -->
+        <description>API library to communicate with NeoFS</description>
+
+        <!-- Copyright information -->
+        <copyright>Copyright ©2020 Neo SPCC</copyright>
+
+        <!-- Tags appear in the gallery and can be used for tag searches -->
+        <tags>neo neofs api grpc proto protobuf</tags>
+
+        <!-- Dependencies are automatically installed when the package is installed -->
+        <dependencies>
+            <dependency id="Google.Protobuf" version="3.11.3" />
+            <dependency id="Grpc" version="2.27.0" />
+            <dependency id="Grpc.Core" version="2.27.0" />
+            <dependency id="Grpc.Tools" version="2.27.0" />
+        </dependencies>
+    </metadata>
+
+    <!-- A readme.txt to display when the package is installed -->
+    <files>
+        <file src="README.md" target="" />
+        <file src="accounting/*" target="accounting/" />
+        <file src="acl/*" target="acl/" />
+        <file src="container/*" target="container/" />
+        <file src="netmap/*" target="netmap/" />
+        <file src="object/*" target="object/" />
+        <file src="refs/*" target="refs/" />
+        <file src="session/*" target="session/" />
+        <file src="storagegroup/*" target="storagegroup/" />
+    </files>
+</package>

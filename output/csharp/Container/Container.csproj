@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="Google.Protobuf" Version="3.13.0" />
+    <PackageReference Include="Grpc" Version="2.31.0" />
+    <PackageReference Include="Grpc.Tools" Version="2.31.0"/>
+  </ItemGroup>
+  <ItemGroup>
+    <Protobuf Include="../../../container/service.proto" AdditionalImportDirs="../../../" CompileOutputs="False" GrpcServices="True" Link="Protos/service.proto" />
+    <Protobuf Include="../../../container/types.proto" AdditionalImportDirs="../../../" CompileOutputs="False" GrpcServices="False" Link="Protos/types.proto" />
+  </ItemGroup>
+</Project>
